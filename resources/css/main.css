@@ -1,0 +1,96 @@
+:root {
+   --primary-color: #edf2fc;
+   --secondary-color: #212121;
+   --primary-div-background-color: #ececf1;
+   --secondary-div-background-color: #272727;
+}
+
+.dark-theme {
+   --primary-div-background-color: #1e1e20;
+   --secondary-div-background-color: #272727;
+   --primary-color: #000106;
+   --secondary-color: white;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+  min-height: 200px;
+  border: 2px whitesmoke solid;
+  color: black;
+}
+
+.col h1 {
+    font-size: 5rem;
+}
+
+.col h6 {
+    font-size: 1.5rem;
+}
+
+.icon-img {
+    width: 20%;
+    height: 20%;
+}
+
+ 
+
+ .title {
+    font-size: 1rem;
+ }
+ 
+ #hourly-forecast-container {
+    background: orange;
+ }
+
+ #temp {
+    font-size: 6rem;
+ }
+
+ #sum {
+    font-size: 1.5rem;
+ }
+ 
+   #map {
+        height: 100%;
+        width: 100%;
+    }
+
+.center-screen {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.nav-item:focus {
+     outline: 2px solid #007BFF; /* Add your preferred focus style */
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.img-icon {
+    width: 50%;
+}
+
+.fa-brands {
+    font-size: 4rem;
+    color: grey;
+}
+
