@@ -28,7 +28,8 @@
  }
 
  function success(position) {
-     //  console.log(position)
+     localStorage.setItem("lat",position.coords.latitude);
+     localStorage.setItem("lon", position.coords.longitude);
  }
 
  function error() {
