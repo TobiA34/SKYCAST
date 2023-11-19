@@ -43,4 +43,5 @@ I struggled with implementing chart.js. I managed to overcome this issue by read
 - I will implement a favourite feature where you can save a weather reading and you can only view the reading when you are logged in.
 - I will allow the user to upload an image.
 - I will add regular expressions to the login forms.
+- I want to rebuild this project using react.
  
