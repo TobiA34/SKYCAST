@@ -28,7 +28,7 @@
  }
 
  function success(position) {
-     localStorage.setItem("lat",position.coords.latitude);
+     localStorage.setItem("lat", position.coords.latitude);
      localStorage.setItem("lon", position.coords.longitude);
  }
 
@@ -144,7 +144,7 @@
      document.getElementById("daily-forecast").innerHTML = temp;
  }
 
- $("input[id='lightSwitch']").on("change", function() {
+ $("input[id='lightSwitch']").on("change", function () {
      if ($("html").attr("data-bs-theme") == 'light') {
          $("html").attr("data-bs-theme", "dark");
      } else if ($("html").attr("data-bs-theme") == "dark") {

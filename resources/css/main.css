@@ -1,23 +1,10 @@
-:root {
-   --primary-color: #edf2fc;
-   --secondary-color: #212121;
-   --primary-div-background-color: #ececf1;
-   --secondary-div-background-color: #272727;
-}
-
-.dark-theme {
-   --primary-div-background-color: #1e1e20;
-   --secondary-div-background-color: #272727;
-   --primary-color: #000106;
-   --secondary-color: white;
-}
-
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+ 
  
 .box {
   display: flex;

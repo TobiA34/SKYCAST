@@ -1,4 +1,5 @@
-  
+ 
+
   async function createChart() {
      const API_KEY = "k5x2tg5do7xuuzbsp91uza45zwin0qvj02fb8vu6"
      const url = `
@@ -35,13 +36,6 @@
   
 
 createChart()
-
  
-document.getElementById('btnSwitch').addEventListener('click', () => {
-    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
-        document.documentElement.setAttribute('data-bs-theme', 'light')
-    } else {
-        document.documentElement.setAttribute('data-bs-theme', 'dark')
-    }
-})
-   
+ if (localStorage.getItem("Mytheme"))
+     body.classList.toggle(localStorage.getItem("Mytheme"));

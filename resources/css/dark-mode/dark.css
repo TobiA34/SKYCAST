@@ -1,0 +1,23 @@
+body {
+    background: #222;
+}
+
+nav {
+    background-color: brown;
+    color: #222;
+}
+
+nav a {
+    color: #222;
+}
+ 
+.btn {
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.btn:hover {
+    background-color: tomato;
+    color: white;
+    border-color: tomato;
+}
