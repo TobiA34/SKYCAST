@@ -5,10 +5,8 @@
  if (TOGGLE_BTN) TOGGLE_BTN.addEventListener("click", changeTheme);
 
  function changeTheme() {
-   // get current theme
-   const oldTheme = getTheme();
-   //invert the theme
-   let newTheme;
+    const oldTheme = getTheme();
+    let newTheme;
    TOGGLE_BTN.classList.toggle("fa-moon");
 
    if (oldTheme === "dark") {
@@ -21,8 +19,7 @@
    }
    localStorage.setItem("theme", newTheme);
    CSS_STYLESHEET.href = `resources/css/dark-mode/${newTheme}.css`;
-   // save the theme
- }
+  }
 
  function getTheme() {
    let theme = localStorage.getItem("theme");
@@ -32,10 +29,9 @@
      localStorage.setItem("theme", theme);
    }
 
-   return theme; //returns light or dark
+   return theme;  
  }
-
- //Anonyms function
+ 
  (() => {
    let theme = getTheme();
    CSS_STYLESHEET.href = `./resources/css/dark-mode/${theme}.css`;
