@@ -39,7 +39,10 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <div>
+              
+            </div>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Weather</a
@@ -51,8 +54,12 @@
                  <li class="nav-item">
               <a class="nav-link" href="chart.html">Chart</a>
             </li>
-        
-           <a><i id="toggle-theme" class="fa-solid fa-sun"></i></a>  
+
+               </li>
+                 <li class="nav-item d-flex justify-end">
+              <a id="toggle-theme" class="nav-link bg-dark rounded">Dark Mode</a>
+            </li>
+      
           </ul>
         </div>
       </div>
@@ -96,7 +103,7 @@
     <div class="span4 ">
     <div class="content">
       <section class="container-lg   mx-auto mt-3 border rounded w-100">
-        <h5 class="text-left mt-3 text-white">Hourly Forecast</h5>
+        <h5 class="text-left mt-3">Hourly Forecast</h5>
         <div class="container | hourly-forecast-container | rounded w-100">
           <h6 class="headers ms-5 p-2 fs-2">Hourly Forecast</h6>
           <div class="list-group list-group-horizontal container w-80 position-relative overflow-auto mt-2 mb-2 "  id="hourly-forcast">
@@ -115,6 +122,51 @@
     <div class="spinner-border center-screen" id="spinner" style="width: 3rem; height: 3rem;" role="status">
       <span class="sr-only">Loading...</span>
     </div>
+    <div class="d-flex flex-column h-100">
+      <hr>
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1">SKYCAST</h5>
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small mb-0">&copy; Copyrights. All rights reserved. <a class="" href="#"></a></p>
+                </div>
+                <div class="col-lg-2 col-md-8 col-lg-2">
+                    <h5 class="mb-3">Info</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/TobiA34?tab=repositories">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/tobi-adegoroye-76aab3186/">LinkedIn</a></li>
+                        <li><a href="https://codepen.io/your-work">CodePen</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class=" mb-3">Quick links</h5>
+                    <ul class="list-unstyled">
+                    <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Weather</a
+                >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cities.html">Cites</a>
+            </li>
+                 <li class="nav-item">
+              <a class="nav-link" href="chart.html">Chart</a>
+            </li>
+          
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class=" mb-3">Newsletter</h5>
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
    </body>
   <script src="resources/js/theme.js" defer></script>
   <script
