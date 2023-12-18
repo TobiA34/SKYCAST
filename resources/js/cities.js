@@ -19,7 +19,7 @@
        data1 += ` <div id="card" class="card mt-3">
  
               <table>
-                <tr onclick = "myFunction(this)" >
+                <tr>
                  <h1 class = "name"> ${item.adm_area1} <h1><h1 class = "name">${item.adm_area2}</h1>
                    
               </table>
